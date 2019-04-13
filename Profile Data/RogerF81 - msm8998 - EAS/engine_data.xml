@@ -2,7 +2,7 @@
 <device model="msm8998">
   <battery 
 	governor="schedutil" 
-	little_max="960000" 
+	little_max="1094400" 
 	little_min="300000" 
 	big_max="806400" 
 	big_min="300000" 
@@ -30,9 +30,9 @@
 	stune_boost="0" />
   <balanced 
 	governor="schedutil" 
-	little_max="1824000" 
+	little_max="1555200" 
 	little_min="300000" 
-	big_max="806400" 
+	big_max="1267200" 
 	big_min="300000" 
 	gpu_max="670000000" 
 	gpu_min="257000000" 
@@ -86,7 +86,7 @@
 	stune_boost="5" />
   <suspend 
 	governor="schedutil" 
-	little_max="825600" 
+	little_max="960000" 
 	little_min="300000" 
 	big_max="300000" 
 	big_min="300000" 
