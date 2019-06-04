@@ -3,9 +3,9 @@
   <battery 
 	governor="schedutil" 
 	little_max="1036800" 
-	little_min="300000" 
-	big_max="806400" 
-	big_min="300000" 
+	little_min="364800" 
+	big_max="1420800" 
+	big_min="345600" 
 	gpu_max="596000000" 
 	gpu_min="257000000" 
 	sched_cfs_boost="0" 
@@ -30,10 +30,10 @@
 	stune_boost="0" />
   <balanced 
 	governor="schedutil" 
-	little_max="1401600" 
-	little_min="595200" 
-	big_max="806400" 
-	big_min="806400" 
+	little_max="1478400" 
+	little_min="1036800" 
+	big_max="1804800" 
+	big_min="729600" 
 	gpu_max="670000000" 
 	gpu_min="257000000" 
 	sched_cfs_boost="0" 
@@ -58,10 +58,10 @@
 	stune_boost="0" />
   <performance 
 	governor="schedutil" 
-	little_max="1900800" 
-	little_min="595200" 
+	little_max="1824000" 
+	little_min="1824000" 
 	big_max="2457600" 
-	big_min="806400" 
+	big_min="1804800" 
 	gpu_max="710000000" 
 	gpu_min="257000000" 
 	sched_cfs_boost="0" 
@@ -86,10 +86,10 @@
 	stune_boost="5" />
   <suspend 
 	governor="schedutil" 
-	little_max="1036800" 
-	little_min="300000" 
-	big_max="300000" 
-	big_min="300000" 
+	little_max="1478400" 
+	little_min="364800" 
+	big_max="1804800" 
+	big_min="345600" 
 	gpu_max="257000000" 
 	gpu_min="257000000" 
 	sched_cfs_boost="0" 
